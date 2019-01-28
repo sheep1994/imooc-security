@@ -50,16 +50,19 @@ public class UserControllerTest {
     @Test
     public void whenQuerySuccess() throws Exception {
         // 伪造http请求
-        mockMvc.perform(MockMvcRequestBuilders.get("/user") // 执行GET请求
-            .param("username", "张三")      // 添加参数
-            .param("age", "12")
-            .param("ageTo", "25")
-            .param("xxx", "再议...")
-            .contentType(MediaType.APPLICATION_JSON_UTF8))   // 设置content-Type
-             // 对请求结果的期望
-            .andExpect(MockMvcResultMatchers.status().isOk())
-             // 解析返回去的json内容
-            .andExpect(MockMvcResultMatchers.jsonPath("$.length()").value(3));
+        String result = mockMvc.perform(MockMvcRequestBuilders.get("/user") // 执行GET请求
+                .param("username", "张三")      // 添加参数
+                .param("age", "12")
+                .param("ageTo", "25")
+                .param("xxx", "再议...")
+                .contentType(MediaType.APPLICATION_JSON_UTF8))   // 设置content-Type
+                // 对请求结果的期望
+                .andExpect(MockMvcResultMatchers.status().isOk())
+                // 解析返回去的json内容
+                .andExpect(MockMvcResultMatchers.jsonPath("$.length()").value(3))
+                .andReturn().getResponse().getContentAsString();
+
+        System.out.println(result);
     }
 
     /**
@@ -68,10 +71,13 @@ public class UserControllerTest {
     @Test
     public void whenGetInfoSuccess() throws Exception {
         // 伪造http请求
-        mockMvc.perform(MockMvcRequestBuilders.get("/user/1")
+        String result = mockMvc.perform(MockMvcRequestBuilders.get("/user/1")
                 .contentType(MediaType.APPLICATION_JSON_UTF8))
                 .andExpect(MockMvcResultMatchers.status().isOk())
-                .andExpect(MockMvcResultMatchers.jsonPath("$.username").value("tom"));
+                .andExpect(MockMvcResultMatchers.jsonPath("$.username").value("tom"))
+                .andReturn().getResponse().getContentAsString();
+
+        System.out.println(result);
     }
 
     /**
@@ -82,5 +88,18 @@ public class UserControllerTest {
         mockMvc.perform(MockMvcRequestBuilders.get("/user/a")
                 .contentType(MediaType.APPLICATION_JSON_UTF8))
                 .andExpect(MockMvcResultMatchers.status().is4xxClientError());
+    }
+
+    /**
+     * 创建
+     */
+    @Test
+    public void whenCreateSuccess() throws Exception {
+        String content = "{\"username\":\"tom\",\"password\":null}";
+        mockMvc.perform(MockMvcRequestBuilders.post("/user")
+                .contentType(MediaType.APPLICATION_JSON_UTF8)
+                .content(content))
+                .andExpect(MockMvcResultMatchers.status().isOk())
+                .andExpect(MockMvcResultMatchers.jsonPath("$.id").value(1));
     }
 }

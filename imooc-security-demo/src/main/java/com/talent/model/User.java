@@ -1,5 +1,7 @@
 package com.talent.model;
 
+import com.alibaba.fastjson.JSON;
+
 /**
  * @author guobing
  * @Title: User
@@ -9,9 +11,19 @@ package com.talent.model;
  */
 public class User {
 
+    private int id;
+
     private String username;
 
     private String password;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getUsername() {
         return username;
@@ -27,5 +39,10 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    @Override
+    public String toString() {
+        return JSON.toJSONString(this);
     }
 }

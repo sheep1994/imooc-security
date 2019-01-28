@@ -15,9 +15,10 @@ import java.util.List;
  * @date 2019/1/28下午3:19
  */
 @RestController
+@RequestMapping("/user")
 public class UserController {
 
-    @RequestMapping(value = "/user", method = RequestMethod.GET)
+    @GetMapping
     public List<User> query(UserCondition userCondition) {
         System.out.println(userCondition);
         List<User> users = new ArrayList<>();
@@ -32,11 +33,23 @@ public class UserController {
      * @param id
      * @return
      */
-    @GetMapping("/user/{id:\\d+}")
+    @GetMapping("/{id:\\d+}")
     public User getInfo(@PathVariable String id) {
         System.out.println(id);
         User user = new User();
         user.setUsername("tom");
+        return user;
+    }
+
+    /**
+     * post请求中传递的参数需要使用@RequestBody进行绑定
+     * @param user
+     * @return
+     */
+    @PostMapping
+    public User create(@RequestBody User user) {
+        System.out.println(user);
+        user.setId(1);
         return user;
     }
 }

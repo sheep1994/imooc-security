@@ -2,41 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="542b4443-ba65-4ae4-924b-07e9299814df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/model/UserCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-security-demo/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-security-demo/src/test/java/com/talent/UserControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-app/target/imooc-security-app-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-app/target/imooc-security-app-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-app/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-app/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-browser/target/imooc-security-browser-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-browser/target/imooc-security-browser-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-browser/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-browser/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-core/target/imooc-security-core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-core/target/imooc-security-core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-core/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/imooc-security-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/imooc-security-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/target/imooc-security-demo-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-demo/src/test/java/com/talent/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/src/test/java/com/talent/UserControllerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/imooc-security-browser/target/" />
     <ignored path="$PROJECT_DIR$/imooc-security-app/target/" />
@@ -83,16 +52,21 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1545" />
+          <entry key="java" value="2015" />
           <entry key="xml" value="1208" />
           <entry key="yml" value="375" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1545" />
+          <entry key="JAVA" value="2015" />
           <entry key="XML" value="1208" />
           <entry key="YAML" value="375" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.remote" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -129,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/test/java/com/talent/UserControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="80" column="51" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
+            <state relative-caret-position="184">
+              <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,8 +115,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="246">
+              <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,9 +127,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="354">
+              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
               <folding>
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
                 <element signature="e#293#294#0" expanded="true" />
                 <element signature="e#341#342#0" expanded="true" />
                 <element signature="e#381#382#0" expanded="true" />
@@ -163,6 +142,8 @@
                 <element signature="e#447#448#0" expanded="true" />
                 <element signature="e#495#496#0" expanded="true" />
                 <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,6 +167,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -196,10 +182,10 @@
         <option value="$PROJECT_DIR$/imooc-security/pom.xml" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/DemoApplication.java" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/model/User.java" />
         <option value="$PROJECT_DIR$/imooc-security-demo/pom.xml" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/model/UserCondition.java" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/test/java/com/talent/UserControllerTest.java" />
+        <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/model/User.java" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/controller/UserController.java" />
       </list>
     </option>
@@ -402,7 +388,7 @@
     <property name="SearchEverywhereHistoryKey" value="Pageab&#9;PSI&#9;JAVA://org.springframework.data.domain.Pageable&#10;sec&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.8.RELEASE/spring-boot-autoconfigure-2.0.8.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/security/servlet/SecurityAutoConfiguration.java&#10;SecurityAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548663730723" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548665154906" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -433,7 +419,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserControllerTest.whenGetInfoSuccess">
+  <component name="RunManager" selected="JUnit.UserControllerTest.whenCreateSuccess">
     <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.talent.DemoApplication" />
       <module name="imooc-security-demo" />
@@ -443,6 +429,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.whenCreateSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="imooc-security-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.talent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.talent" />
+      <option name="MAIN_CLASS_NAME" value="com.talent.UserControllerTest" />
+      <option name="METHOD_NAME" value="whenCreateSuccess" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -495,33 +497,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="imooc-security-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.talent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.talent.DemoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Application.DemoApplication" />
       <item itemvalue="JUnit.UserControllerTest.whenQuerySuccess" />
       <item itemvalue="JUnit.UserControllerTest.whenGetInfoSuccess" />
       <item itemvalue="JUnit.UserControllerTest.whenGetInfoFail" />
+      <item itemvalue="JUnit.UserControllerTest.whenCreateSuccess" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserControllerTest.whenCreateSuccess" />
         <item itemvalue="JUnit.UserControllerTest.whenGetInfoSuccess" />
-        <item itemvalue="JUnit.UserControllerTest.whenGetInfoFail" />
         <item itemvalue="JUnit.UserControllerTest.whenQuerySuccess" />
+        <item itemvalue="JUnit.UserControllerTest.whenGetInfoFail" />
         <item itemvalue="Application.DemoApplication" />
-        <item itemvalue="Spring Boot.DemoApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -537,44 +526,44 @@
       <updated>1548410798457</updated>
       <workItem from="1548410801819" duration="459000" />
       <workItem from="1548638681728" duration="11164000" />
-      <workItem from="1548655663764" duration="5581000" />
+      <workItem from="1548655663764" duration="7090000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserControllerTest_whenQuerySuccess - 2019.01.28 at 15h 42m 32s.xml">
-      <configuration name="UserControllerTest.whenQuerySuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_whenQuerySuccess - 2019.01.28 at 15h 43m 36s.xml">
-      <configuration name="UserControllerTest.whenQuerySuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_whenQuerySuccess - 2019.01.28 at 15h 47m 20s.xml">
-      <configuration name="UserControllerTest.whenQuerySuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_whenQuerySuccess - 2019.01.28 at 15h 48m 40s.xml">
-      <configuration name="UserControllerTest.whenQuerySuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_whenQuerySuccess - 2019.01.28 at 15h 49m 17s.xml">
-      <configuration name="UserControllerTest.whenQuerySuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_whenQuerySuccess - 2019.01.28 at 15h 57m 13s.xml">
-      <configuration name="UserControllerTest.whenQuerySuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_whenGetInfoSuccess - 2019.01.28 at 16h 13m 37s.xml">
-      <configuration name="UserControllerTest.whenGetInfoSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_whenGetInfoSuccess - 2019.01.28 at 16h 16m 13s.xml">
-      <configuration name="UserControllerTest.whenGetInfoSuccess" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserControllerTest_whenGetInfoSuccess - 2019.01.28 at 16h 16m 55s.xml">
       <configuration name="UserControllerTest.whenGetInfoSuccess" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UserControllerTest_whenGetInfoFail - 2019.01.28 at 16h 19m 55s.xml">
       <configuration name="UserControllerTest.whenGetInfoFail" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserControllerTest_whenGetInfoFail - 2019.01.28 at 16h 21m 08s.xml">
+      <configuration name="UserControllerTest.whenGetInfoFail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_whenGetInfoSuccess - 2019.01.28 at 16h 22m 08s.xml">
+      <configuration name="UserControllerTest.whenGetInfoSuccess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_whenQuerySuccess - 2019.01.28 at 16h 31m 54s.xml">
+      <configuration name="UserControllerTest.whenQuerySuccess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_whenGetInfoSuccess - 2019.01.28 at 16h 32m 22s.xml">
+      <configuration name="UserControllerTest.whenGetInfoSuccess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_whenCreateSuccess - 2019.01.28 at 16h 41m 33s.xml">
+      <configuration name="UserControllerTest.whenCreateSuccess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_whenCreateSuccess - 2019.01.28 at 16h 43m 50s.xml">
+      <configuration name="UserControllerTest.whenCreateSuccess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_whenCreateSuccess - 2019.01.28 at 16h 44m 43s.xml">
+      <configuration name="UserControllerTest.whenCreateSuccess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_whenCreateSuccess - 2019.01.28 at 16h 45m 24s.xml">
+      <configuration name="UserControllerTest.whenCreateSuccess" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17204000" />
+    <option name="totallyTimeSpent" value="18713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="6" />
@@ -595,7 +584,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32909605" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32863188" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007163" side_tool="true" weight="0.325811" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49928367" weight="0.32803467" />
       <window_info anchor="bottom" id="SonarLint" order="10" />
@@ -771,22 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/DemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -863,10 +836,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/test/java/com/talent/UserControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="80" column="51" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
+        <state relative-caret-position="184">
+          <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -875,8 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="246">
+          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
