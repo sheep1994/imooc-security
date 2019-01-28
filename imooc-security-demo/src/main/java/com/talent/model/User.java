@@ -2,6 +2,8 @@ package com.talent.model;
 
 import com.alibaba.fastjson.JSON;
 
+import java.util.Date;
+
 /**
  * @author guobing
  * @Title: User
@@ -16,6 +18,8 @@ public class User {
     private String username;
 
     private String password;
+
+    private Date birthday;
 
     public int getId() {
         return id;
@@ -39,6 +43,14 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public Date getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(Date birthday) {
+        this.birthday = birthday;
     }
 
     @Override
