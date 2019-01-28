@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/mybatis?useUnicode=yes
+    username: root
+    password: 123456
+
+  ## 先关掉spring session
+  session:
+    store-type: none
+
+## 关闭spring security安全认证，2.0之后不再使用
+#security:
+#  basic:
+#    enabled: false
+security:
+  user:
+    name: admin
+    password: 123456
