@@ -1,6 +1,7 @@
 package com.talent.model;
 
 import com.alibaba.fastjson.JSON;
+import org.hibernate.validator.constraints.NotBlank;
 
 import java.util.Date;
 
@@ -17,6 +18,7 @@ public class User {
 
     private String username;
 
+    @NotBlank
     private String password;
 
     private Date birthday;

@@ -1,9 +1,12 @@
 package com.talent.controller;
 
+import com.talent.exception.UserIsNotExistException;
 import com.talent.model.User;
 import com.talent.model.UserCondition;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,20 +38,28 @@ public class UserController {
      */
     @GetMapping("/{id:\\d+}")
     public User getInfo(@PathVariable String id) {
-        System.out.println(id);
+
+        throw new UserIsNotExistException(id);
+
+        /*System.out.println(id);
         User user = new User();
         user.setUsername("tom");
-        return user;
+        return user;*/
     }
 
     /**
      * post请求中传递的参数需要使用@RequestBody进行绑定
      * @param user
+     * @param errors: 在实体类中标注的注解校验不通过了，就会将错误信息放到errors中
      * @return
      */
     @PostMapping
-    public User create(@RequestBody User user) {
-        System.out.println(user);
+    public User create(@Valid @RequestBody User user, BindingResult errors) {
+        System.out.println(user.getBirthday());
+        // 是否有错误
+        if (errors.hasErrors()) {
+            errors.getAllErrors().stream().forEach(error -> System.out.println(error.getDefaultMessage()));
+        }
         user.setId(1);
         return user;
     }
