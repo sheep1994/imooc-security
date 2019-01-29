@@ -8,6 +8,13 @@ spring:
   ## 先关掉spring session
   session:
     store-type: none
+  ## 文件上传
+  http:
+    multipart:
+      ## 单个文件的最大值
+      max-file-size: 10MB
+      ## 上传文件总的最大值
+      max-request-size: 10MB
 
 ## 关闭spring security安全认证，2.0之后不再使用
 #security:
