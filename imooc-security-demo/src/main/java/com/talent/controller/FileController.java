@@ -1,6 +1,7 @@
 package com.talent.controller;
 
 import com.talent.model.FileInfo;
+import org.apache.commons.io.IOUtils;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -50,6 +51,11 @@ public class FileController {
             OutputStream outputStream = response.getOutputStream();
             // 设置Content-Type
             response.setContentType("application/x-download");
+            // 定义下载是的文件名
+            response.addHeader("Content-Disposition", "attachment;filename=test.txt");
+            // 下载
+            IOUtils.copy(inputStream, outputStream);
+            outputStream.flush();
         } catch (Exception e) {
             e.printStackTrace();
         }
