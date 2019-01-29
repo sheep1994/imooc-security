@@ -1,6 +1,5 @@
 package com.talent.controller;
 
-import com.talent.exception.UserIsNotExistException;
 import com.talent.model.User;
 import com.talent.model.UserCondition;
 import org.springframework.validation.BindingResult;
@@ -38,13 +37,10 @@ public class UserController {
      */
     @GetMapping("/{id:\\d+}")
     public User getInfo(@PathVariable String id) {
-
-        throw new UserIsNotExistException(id);
-
-        /*System.out.println(id);
+        System.out.println(id);
         User user = new User();
         user.setUsername("tom");
-        return user;*/
+        return user;
     }
 
     /**
