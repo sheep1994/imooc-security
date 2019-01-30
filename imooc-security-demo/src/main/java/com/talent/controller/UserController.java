@@ -2,6 +2,8 @@ package com.talent.controller;
 
 import com.talent.model.User;
 import com.talent.model.UserCondition;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
@@ -21,6 +23,7 @@ import java.util.List;
 public class UserController {
 
     @GetMapping
+    @ApiOperation(value = "用户查询服务")
     public List<User> query(UserCondition userCondition) {
         System.out.println(userCondition);
         List<User> users = new ArrayList<>();
@@ -36,7 +39,7 @@ public class UserController {
      * @return
      */
     @GetMapping("/{id:\\d+}")
-    public User getInfo(@PathVariable String id) {
+    public User getInfo(@ApiParam(value = "用户id") @PathVariable String id) {
         System.out.println(id);
         User user = new User();
         user.setUsername("tom");

@@ -1,6 +1,7 @@
 package com.talent.model;
 
 import com.alibaba.fastjson.JSON;
+import io.swagger.annotations.ApiModelProperty;
 
 /**
  * @author guobing
@@ -11,12 +12,16 @@ import com.alibaba.fastjson.JSON;
  */
 public class UserCondition {
 
+    @ApiModelProperty(value = "用户名")
     private String username;
 
+    @ApiModelProperty(value = "用户年龄起始值")
     private int age;
 
+    @ApiModelProperty(value = "用户年龄区间值")
     private int ageTo;
 
+    @ApiModelProperty(value = "用户...")
     private String xxx;
 
     public String getUsername() {
