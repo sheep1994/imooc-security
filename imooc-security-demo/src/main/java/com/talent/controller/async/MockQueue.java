@@ -35,8 +35,8 @@ public class MockQueue {
             logger.info("接到下单请求");
             try {
                 Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+            } catch (Exception e) {
+                logger.error(e.getMessage());
             }
             this.completeOrder = placeOrder;
             logger.info("下单请求处理完毕, placeOrder : []", placeOrder);

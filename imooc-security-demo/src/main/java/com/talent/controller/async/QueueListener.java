@@ -41,8 +41,8 @@ public class QueueListener implements ApplicationListener<ContextRefreshedEvent>
                 } else {
                     try {
                         Thread.sleep(1000);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
+                    } catch (Exception e) {
+                        logger.error(e.getMessage());
                     }
                 }
             }

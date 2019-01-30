@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  * @author guobing
  * @Title: MvcConfig
  * @ProjectName spring-security
- * @Description: TODO
+ * @Description: Spring MVC 配置类
  * @date 2019/1/29上午11:34
  */
 @Configuration

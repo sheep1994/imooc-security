@@ -9,7 +9,7 @@ import java.util.Date;
  * @author guobing
  * @Title: User
  * @ProjectName spring-security
- * @Description: TODO
+ * @Description: 用户实体类
  * @date 2019/1/28下午3:40
  */
 public class User {

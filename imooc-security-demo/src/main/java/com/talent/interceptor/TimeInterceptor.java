@@ -1,5 +1,7 @@
 package com.talent.interceptor;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
@@ -16,6 +18,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class TimeInterceptor implements HandlerInterceptor {
 
+    private static final Logger looger = LoggerFactory.getLogger(TimeInterceptor.class);
     /**
      * 控制器方法调用前被调用
      * @param httpServletRequest
@@ -26,9 +29,9 @@ public class TimeInterceptor implements HandlerInterceptor {
      */
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
-        System.out.println("preHandle...");
-        System.out.println(((HandlerMethod)o).getBean().getClass().getName());
-        System.out.println(((HandlerMethod) o).getMethod().getName());
+        looger.info("preHandle...");
+        looger.info("类名称为 【{}】", ((HandlerMethod)o).getBean().getClass().getName());
+        looger.info("方法名为 【{}】", ((HandlerMethod) o).getMethod().getName());
         httpServletRequest.setAttribute("startTime", System.currentTimeMillis());
         return true;
     }
@@ -43,7 +46,7 @@ public class TimeInterceptor implements HandlerInterceptor {
      */
     @Override
     public void postHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, ModelAndView modelAndView) throws Exception {
-        System.out.println("postHandle...");
+        looger.info("postHandle...");
     }
 
     /**
@@ -56,6 +59,6 @@ public class TimeInterceptor implements HandlerInterceptor {
      */
     @Override
     public void afterCompletion(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, Exception e) throws Exception {
-        System.out.println("afterCompletion...");
+        looger.info("afterCompletion...");
     }
 }

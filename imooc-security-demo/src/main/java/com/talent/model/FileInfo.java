@@ -4,7 +4,7 @@ package com.talent.model;
  * @author guobing
  * @Title: FileInfo
  * @ProjectName spring-security
- * @Description: TODO
+ * @Description: 文件对象
  * @date 2019/1/29下午2:40
  */
 public class FileInfo {

@@ -10,7 +10,7 @@ import java.util.Map;
  * @author guobing
  * @Title: DeferredResultHolder
  * @ProjectName spring-security
- * @Description: TODO
+ * @Description: DeferredResultHolder异步处理类
  * @date 2019/1/29下午5:25
  */
 @Component

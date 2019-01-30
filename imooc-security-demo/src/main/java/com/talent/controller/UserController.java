@@ -4,6 +4,8 @@ import com.talent.model.User;
 import com.talent.model.UserCondition;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,10 +24,12 @@ import java.util.List;
 @RequestMapping("/user")
 public class UserController {
 
+    private static final Logger logger = LoggerFactory.getLogger(UserController.class);
+
     @GetMapping
     @ApiOperation(value = "用户查询服务")
     public List<User> query(UserCondition userCondition) {
-        System.out.println(userCondition);
+        logger.info("userCondition 【{}】", userCondition);
         List<User> users = new ArrayList<>();
         users.add(new User());
         users.add(new User());
@@ -40,7 +44,7 @@ public class UserController {
      */
     @GetMapping("/{id:\\d+}")
     public User getInfo(@ApiParam(value = "用户id") @PathVariable String id) {
-        System.out.println(id);
+        logger.info("id 【{}】", id);
         User user = new User();
         user.setUsername("tom");
         return user;
@@ -54,7 +58,7 @@ public class UserController {
      */
     @PostMapping
     public User create(@Valid @RequestBody User user, BindingResult errors) {
-        System.out.println(user.getBirthday());
+        logger.info("birthday 【{}】", user.getBirthday());
         // 是否有错误
         if (errors.hasErrors()) {
             errors.getAllErrors().stream().forEach(error -> System.out.println(error.getDefaultMessage()));

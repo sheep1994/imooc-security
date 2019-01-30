@@ -11,7 +11,7 @@ import java.util.Arrays;
  * @author guobing
  * @Title: ServletConfig
  * @ProjectName spring-security
- * @Description: TODO
+ * @Description: Servlet容器配置类
  * @date 2019/1/29上午11:36
  */
 @Configuration

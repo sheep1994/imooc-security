@@ -14,7 +14,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @author guobing
  * @Title: Swagger2Config
  * @ProjectName spring-security
- * @Description: TODO
+ * @Description: Swagger2 配置类
  * @date 2019/1/29下午6:07
  *
  * @EnableSwagger2: 开启swagger2配置
