@@ -2,30 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="542b4443-ba65-4ae4-924b-07e9299814df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/config/Swagger2Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_flipkart_zjsonpatch_zjsonpatch_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jknack_handlebars_4_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_tomakehurst_wiremock_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_5_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_legacy_2_3_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imooc-security-demo/imooc-security-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/imooc-security-demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imooc-security-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/config/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/model/UserCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/model/UserCondition.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/imooc-security-browser/target/" />
     <ignored path="$PROJECT_DIR$/imooc-security-app/target/" />
@@ -54,36 +41,36 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="13" />
+          <entry key="class" value="15" />
           <entry key="gitignore" value="5" />
-          <entry key="java" value="68" />
+          <entry key="java" value="70" />
           <entry key="pom" value="1" />
           <entry key="txt" value="2" />
-          <entry key="xml" value="22" />
+          <entry key="xml" value="23" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="13" />
+          <entry key="CLASS" value="15" />
           <entry key="Git file" value="5" />
-          <entry key="JAVA" value="68" />
+          <entry key="JAVA" value="70" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="XML" value="23" />
+          <entry key="XML" value="24" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6850" />
-          <entry key="xml" value="1317" />
+          <entry key="java" value="7040" />
+          <entry key="xml" value="1379" />
           <entry key="yml" value="470" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6850" />
-          <entry key="XML" value="1317" />
+          <entry key="JAVA" value="7040" />
+          <entry key="XML" value="1379" />
           <entry key="YAML" value="470" />
         </counts>
       </usages-collector>
@@ -96,104 +83,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/DemoApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/config/MvcConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/controller/FileController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="45" column="93" selection-start-line="45" selection-start-column="93" selection-end-line="45" selection-end-column="93" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/model/UserCondition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imooc-security-demo/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/config/Swagger2Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0.jar!/com/google/common/collect/Maps.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="96" column="39" selection-start-line="96" selection-start-column="39" selection-end-line="96" selection-end-column="39" />
-              <folding>
-                <element signature="e#3129#3130#0" expanded="true" />
-                <element signature="e#3165#3166#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="177">
+              <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -251,10 +145,11 @@
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/controller/async/QueueListener.java" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/controller/async/MockQueue.java" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/config/MvcConfig.java" />
-        <option value="$PROJECT_DIR$/imooc-security-demo/pom.xml" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/model/UserCondition.java" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/controller/UserController.java" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/config/Swagger2Config.java" />
+        <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/wiremock/MockServer.java" />
+        <option value="$PROJECT_DIR$/imooc-security-demo/pom.xml" />
       </list>
     </option>
   </component>
@@ -426,27 +321,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="talent" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-security-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="talent" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="async" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-security-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="talent" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -511,7 +385,7 @@
     <property name="SearchEverywhereHistoryKey" value="Runnable&#9;PSI&#9;JAVA://java.lang.Runnable&#10;MultipartProperties&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.MultipartProperties&#10;ba&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.6.RELEASE/spring-boot-autoconfigure-1.5.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/BasicErrorController.java&#10;BasicErr&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.BasicErrorController&#10;Pageab&#9;PSI&#9;JAVA://org.springframework.data.domain.Pageable&#10;sec&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.8.RELEASE/spring-boot-autoconfigure-2.0.8.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/security/servlet/SecurityAutoConfiguration.java&#10;SecurityAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548756487661" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548816303682" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -545,13 +419,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoApplication">
+  <component name="RunManager" selected="Application.MockServer">
     <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.talent.DemoApplication" />
       <module name="imooc-security-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.talent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.talent.wiremock.MockServer" />
+      <module name="imooc-security-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.talent.wiremock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -570,22 +457,6 @@
       <option name="PACKAGE_NAME" value="com.talent" />
       <option name="MAIN_CLASS_NAME" value="com.talent.UserControllerTest" />
       <option name="METHOD_NAME" value="whenCreateSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserControllerTest.whenGetInfoSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="imooc-security-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.talent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.talent" />
-      <option name="MAIN_CLASS_NAME" value="com.talent.UserControllerTest" />
-      <option name="METHOD_NAME" value="whenGetInfoSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -634,17 +505,17 @@
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Application.DemoApplication" />
       <item itemvalue="JUnit.UserControllerTest.whenQuerySuccess" />
-      <item itemvalue="JUnit.UserControllerTest.whenGetInfoSuccess" />
       <item itemvalue="JUnit.UserControllerTest.whenCreateSuccess" />
       <item itemvalue="JUnit.UserControllerTest.whenUploadSucc" />
+      <item itemvalue="Application.MockServer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MockServer" />
         <item itemvalue="Application.DemoApplication" />
         <item itemvalue="JUnit.UserControllerTest.whenUploadSucc" />
         <item itemvalue="JUnit.UserControllerTest.whenQuerySuccess" />
         <item itemvalue="JUnit.UserControllerTest.whenCreateSuccess" />
-        <item itemvalue="JUnit.UserControllerTest.whenGetInfoSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -661,7 +532,7 @@
       <workItem from="1548410801819" duration="459000" />
       <workItem from="1548638681728" duration="11164000" />
       <workItem from="1548655663764" duration="28185000" />
-      <workItem from="1548812738050" duration="1905000" />
+      <workItem from="1548812738050" duration="3455000" />
     </task>
     <servers />
   </component>
@@ -698,7 +569,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41713000" />
+    <option name="totallyTimeSpent" value="43263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="6" />
@@ -752,27 +623,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.10.RELEASE/spring-test-4.3.10.RELEASE-sources.jar!/org/springframework/test/web/servlet/setup/DefaultMockMvcBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.10.RELEASE/spring-test-4.3.10.RELEASE-sources.jar!/org/springframework/test/web/servlet/request/MockHttpServletRequestBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="327" column="41" selection-start-line="327" selection-start-column="41" selection-end-line="327" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.6.RELEASE/spring-data-commons-1.13.6.RELEASE.jar!/org/springframework/data/domain/Pageable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.6.RELEASE/spring-data-commons-1.13.6.RELEASE-sources.jar!/org/springframework/data/domain/Pageable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -1027,20 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-security-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/controller/async/DeferredResultHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1146,11 +982,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/config/Swagger2Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="67">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/MockServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tomakehurst/wiremock/2.5.1/wiremock-2.5.1.jar!/com/github/tomakehurst/wiremock/client/WireMock.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="122" column="23" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
+          <folding>
+            <element signature="e#5243#5244#0" expanded="true" />
+            <element signature="e#5298#5299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/wiremock/MockServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
         </state>
       </provider>
     </entry>
