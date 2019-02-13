@@ -57,7 +57,7 @@ public class FileController {
             outputStream = response.getOutputStream();
             // 设置Content-Type
             response.setContentType("application/x-download");
-            // 定义下载是的文件名
+            // 定义下载时的文件名
             response.addHeader("Content-Disposition", "attachment;filename=test.txt");
             // 下载
             IOUtils.copy(inputStream, outputStream);

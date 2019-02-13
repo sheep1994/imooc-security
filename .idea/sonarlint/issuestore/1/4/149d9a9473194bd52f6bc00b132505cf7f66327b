@@ -1,10 +1,3 @@
 
-V
-squid:S106""9Replace this use of System.out or System.err by a logger.(º¬ôƒ8Ş–ãÂ‰-
-[
-squid:S106!"9Replace this use of System.out or System.err by a logger.(§«Œøüÿÿÿÿ8˜ÖŞÂ‰-
-V
-squid:S106 "9Replace this use of System.out or System.err by a logger.(ûéÜê8²†ŞÂ‰-
-Isquid:S1135"2Complete the task associated to this TODO comment.(Üğ£Å
-ksquid:S20951"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(áŞæ8Â¯Ã‰-
-Fsquid:S1148<"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8½Æ‰-
+jsquid:S20957"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ò‘Â28Âœéï‰-
+Msquid:S20935"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8¥çäï‰-

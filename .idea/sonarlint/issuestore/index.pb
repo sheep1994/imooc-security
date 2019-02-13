@@ -55,3 +55,5 @@ Bimooc-security-demo/src/main/java/com/talent/config/MvcConfig.java,3/a/3a8b323
 Kimooc-security-demo/src/main/java/com/talent/controller/FileController.java,1/4/149d9a9473194bd52f6bc00b132505cf7f66327b
 w
 Gimooc-security-demo/src/main/java/com/talent/config/Swagger2Config.java,4/1/417c062e3055d700f95c1a9e981fc4671133c204
+z
+Jimooc-security-browser/src/main/java/com/talent/BrowserSecurityConfig.java,c/6/c6b04d682e64cd3292de85ae1151155d607a6bd1

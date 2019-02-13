@@ -20,7 +20,9 @@ spring:
 #security:
 #  basic:
 #    enabled: false
-security:
-  user:
-    name: admin
-    password: 123456
+
+#imooc:
+#  security:
+#    browser:
+#      loginPage: /demo-signIn.html
+#      loginType: REDIRECT
