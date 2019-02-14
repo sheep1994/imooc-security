@@ -1,6 +1,7 @@
 package com.talent;
 
 import com.talent.properties.SecurityProperties;
+import com.talent.validate.code.ValidateCodeFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -10,6 +11,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 /**
  * @author guobing
@@ -37,8 +39,13 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
      */
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        // 基于表单登录
-        http.formLogin()
+
+        ValidateCodeFilter validateCodeFilter = new ValidateCodeFilter();
+        validateCodeFilter.setAuthenticationFailureHandler(imoocAuthenticationFailureHandler);
+
+        // 基于表单登录，在UsernamePasswordAuthenticationFilter过滤器之前添加自定义的过滤器
+        http.addFilterBefore(validateCodeFilter, UsernamePasswordAuthenticationFilter.class)
+            .formLogin()
             // 配置登录页面,跳转到自定义的controller方法中
             .loginPage("/authentication/require")
             // form表单中action路径的配置，因为Spring Security中的UsernamePasswordAuthenticationFilter中默认处理的是/login登录请求
@@ -54,7 +61,8 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
             .authorizeRequests()
             // 当访问登录页面时不需要身份验证
             .antMatchers("/authentication/require",
-                    securityProperties.getBrowser().getLoginPage()).permitAll()
+                    securityProperties.getBrowser().getLoginPage(),
+                    "/code/image").permitAll()
             // 对任何请求
             .anyRequest()
             // 都需要身份认证

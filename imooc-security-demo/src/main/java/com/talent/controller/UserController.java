@@ -6,6 +6,10 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
@@ -25,6 +29,25 @@ import java.util.List;
 public class UserController {
 
     private static final Logger logger = LoggerFactory.getLogger(UserController.class);
+
+    /**
+     * 获取当前登录用户信息
+     * @return
+     */
+    @GetMapping("/me")
+    public Object getCurrentUser() {
+        return SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+    }
+
+    @GetMapping("/me1")
+    public Object getCurrentUser1(Authentication authentication) {
+        return authentication.getPrincipal();
+    }
+
+    @GetMapping("/me2")
+    public Object getCurrentUser2(@AuthenticationPrincipal UserDetails userDetails) {
+        return userDetails;
+    }
 
     @GetMapping
     @ApiOperation(value = "用户查询服务")
