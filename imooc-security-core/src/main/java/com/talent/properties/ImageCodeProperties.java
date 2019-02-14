@@ -7,7 +7,7 @@ package com.talent.properties;
  * @Description: TODO
  * @date 2019/2/14下午2:03
  */
-public class ImageCodeProperties {
+public class ImageCodeProperties extends SmsCodeProperties {
 
     /**
      * 验证码的宽度
@@ -20,19 +20,13 @@ public class ImageCodeProperties {
     private int height = 23;
 
     /**
-     * 验证码的个数
-     */
-    private int length = 4;
-
-    /**
-     * 验证码的失效时间
-     */
-    private int expireIn = 60;
-
-    /**
      * 过滤器可以过滤多个url
      */
     private String url;
+
+    public ImageCodeProperties() {
+        setLength(4);
+    }
 
     public int getWidth() {
         return width;
@@ -48,22 +42,6 @@ public class ImageCodeProperties {
 
     public void setHeight(int height) {
         this.height = height;
-    }
-
-    public int getLength() {
-        return length;
-    }
-
-    public void setLength(int length) {
-        this.length = length;
-    }
-
-    public int getExpireIn() {
-        return expireIn;
-    }
-
-    public void setExpireIn(int expireIn) {
-        this.expireIn = expireIn;
     }
 
     public String getUrl() {
