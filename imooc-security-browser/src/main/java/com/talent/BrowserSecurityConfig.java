@@ -7,11 +7,16 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.security.web.authentication.rememberme.JdbcTokenRepositoryImpl;
+import org.springframework.security.web.authentication.rememberme.PersistentTokenRepository;
+
+import javax.sql.DataSource;
 
 /**
  * @author guobing
@@ -32,6 +37,12 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private AuthenticationFailureHandler imoocAuthenticationFailureHandler;
 
+    @Autowired
+    private DataSource dataSource;
+
+    @Autowired
+    private UserDetailsService myUserDetailsService;
+
     /**
      * 使用表单登录配置
      * @param http
@@ -42,6 +53,9 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 
         ValidateCodeFilter validateCodeFilter = new ValidateCodeFilter();
         validateCodeFilter.setAuthenticationFailureHandler(imoocAuthenticationFailureHandler);
+        validateCodeFilter.setSecurityProperties(securityProperties);
+        // 调初始化bean的方法
+        validateCodeFilter.afterPropertiesSet();
 
         // 基于表单登录，在UsernamePasswordAuthenticationFilter过滤器之前添加自定义的过滤器
         http.addFilterBefore(validateCodeFilter, UsernamePasswordAuthenticationFilter.class)
@@ -54,6 +68,13 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
             .successHandler(imoocAuthenticationSuccessHandler)
             // 自定义登录失败后逻辑处理
             .failureHandler(imoocAuthenticationFailureHandler)
+            .and()
+            .rememberMe()
+                // tokenRepository配置
+                .tokenRepository(persistentTokenRepository())
+                // 记住我过期时间
+                .tokenValiditySeconds(securityProperties.getBrowser().getRememberMeSeconds())
+                .userDetailsService(myUserDetailsService)
         // 使用默认方式登录
         //http.httpBasic()
             .and()
@@ -79,6 +100,21 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
+    }
+
+    /**
+     * 配置记住我功能
+     * @return
+     *
+     * 在系统启动的时候，会自动创建这张表，只需要写一次
+     *  tokenRepository.setCreateTableOnStartup(true);
+     *
+     */
+    @Bean
+    public PersistentTokenRepository persistentTokenRepository() {
+        JdbcTokenRepositoryImpl tokenRepository = new JdbcTokenRepositoryImpl();
+        tokenRepository.setDataSource(dataSource);
+        return tokenRepository;
     }
 
 }

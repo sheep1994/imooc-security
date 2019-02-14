@@ -1,7 +1,7 @@
 spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/mybatis?useUnicode=yes
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.16.32.145:3306/mybatis?useUnicode=yes
     username: root
     password: 123456
 
@@ -26,3 +26,9 @@ imooc:
     browser:
 #      loginPage: /demo-signIn.html
       loginType: JSON
+    code:
+      image:
+        length: 4
+#        width: 100
+        ## 多请求过滤
+#        url: /user,/user/*

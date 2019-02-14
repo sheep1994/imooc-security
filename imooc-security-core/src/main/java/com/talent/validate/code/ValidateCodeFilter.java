@@ -1,10 +1,14 @@
 package com.talent.validate.code;
 
+import com.talent.properties.SecurityProperties;
+import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang.StringUtils;
+import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.social.connect.web.HttpSessionSessionStrategy;
 import org.springframework.social.connect.web.SessionStrategy;
+import org.springframework.util.AntPathMatcher;
 import org.springframework.web.bind.ServletRequestBindingException;
 import org.springframework.web.bind.ServletRequestUtils;
 import org.springframework.web.context.request.ServletWebRequest;
@@ -15,7 +19,9 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
 /**
  * @author guobing
@@ -24,32 +30,47 @@ import java.util.Objects;
  * @Description: OncePerRequestFilter是Spring提供的一个过滤器，保证只会执行一次
  * @date 2019/2/14上午11:23
  */
-public class ValidateCodeFilter extends OncePerRequestFilter {
+public class ValidateCodeFilter extends OncePerRequestFilter implements InitializingBean {
 
-    @Autowired
     private AuthenticationFailureHandler authenticationFailureHandler;
 
+    private SecurityProperties securityProperties;
+
     private SessionStrategy sessionStrategy = new HttpSessionSessionStrategy();
+
+    private Set<String> urls = new HashSet<>();
+
+    /**
+     * Spring 提供的工具类
+     */
+    private AntPathMatcher pathMatcher = new AntPathMatcher();
 
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
             throws ServletException, IOException {
 
+        boolean action = false;
+        for (String url : urls) {
+            if (pathMatcher.match(url, request.getRequestURI())) {
+                action = true;
+            }
+        }
+
         /**
          * 请求的地址是/authentication/form时
          */
-        if (StringUtils.equals("/authentication/form", request.getRequestURI())
-                && StringUtils.equals("POST", request.getMethod())) {
+        if (action) {
             try {
                 // 图形验证码的验证
                 validate(new ServletWebRequest(request));
             } catch (ValidateCodeException e) {
                 // 处理失败
                 authenticationFailureHandler.onAuthenticationFailure(request, response, e);
+                return ;
             }
         }
-        filterChain.doFilter(request, response);
 
+        filterChain.doFilter(request, response);
     }
 
     /**
@@ -86,5 +107,25 @@ public class ValidateCodeFilter extends OncePerRequestFilter {
 
     public void setAuthenticationFailureHandler(AuthenticationFailureHandler authenticationFailureHandler) {
         this.authenticationFailureHandler = authenticationFailureHandler;
+    }
+
+    public SecurityProperties getSecurityProperties() {
+        return securityProperties;
+    }
+
+    public void setSecurityProperties(SecurityProperties securityProperties) {
+        this.securityProperties = securityProperties;
+    }
+
+    @Override
+    public void afterPropertiesSet() throws ServletException {
+        super.afterPropertiesSet();
+        String[] configUrls = StringUtils.splitByWholeSeparatorPreserveAllTokens(securityProperties.getCode().getImage().getUrl(), ",");
+        if (configUrls != null) {
+            for (String configUrl : configUrls) {
+                urls.add(configUrl);
+            }
+        }
+        urls.add("/authentication/form");
     }
 }

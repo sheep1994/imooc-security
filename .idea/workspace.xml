@@ -2,17 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="542b4443-ba65-4ae4-924b-07e9299814df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ImageCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-security-demo/src/main/resources/resources/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/properties/ImageCodeProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/properties/ValidateCodeProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ImageCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeBeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/code/DemoImageCodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_43.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-app/imooc-security-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-app/imooc-security-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-app/target/imooc-security-app-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-app/target/imooc-security-app-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-app/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-app/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-browser/imooc-security-browser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-browser/imooc-security-browser.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-browser/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-browser/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/BrowserSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/BrowserSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/authenticated/ImoocAuthenticationFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/authenticated/ImoocAuthenticationFailureHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imooc-security-browser/src/main/resources/resources/imooc-signIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-browser/src/main/resources/resources/imooc-signIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-browser/target/imooc-security-browser-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-browser/target/imooc-security-browser-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-browser/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-browser/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-core/imooc-security-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-core/imooc-security-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/properties/BrowserProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/properties/BrowserProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/properties/SecurityProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/properties/SecurityProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-core/target/imooc-security-core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-core/target/imooc-security-core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-core/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-demo/imooc-security-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/imooc-security-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imooc-security-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-demo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/imooc-security-browser/target/" />
     <ignored path="$PROJECT_DIR$/imooc-security-app/target/" />
@@ -44,43 +65,45 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="26" />
+          <entry key="0-SNAPSHOT" value="1" />
+          <entry key="class" value="27" />
           <entry key="gitignore" value="5" />
-          <entry key="html" value="7" />
-          <entry key="java" value="296" />
-          <entry key="pom" value="1" />
+          <entry key="html" value="9" />
+          <entry key="java" value="328" />
+          <entry key="pom" value="5" />
           <entry key="txt" value="3" />
-          <entry key="xml" value="24" />
-          <entry key="yml" value="8" />
+          <entry key="xml" value="33" />
+          <entry key="yml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="26" />
+          <entry key="CLASS" value="27" />
           <entry key="Git file" value="5" />
-          <entry key="HTML" value="7" />
-          <entry key="JAVA" value="296" />
+          <entry key="HTML" value="9" />
+          <entry key="JAVA" value="328" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="XML" value="25" />
-          <entry key="YAML" value="8" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="38" />
+          <entry key="YAML" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="html" value="290" />
-          <entry key="java" value="13014" />
-          <entry key="xml" value="1380" />
-          <entry key="yml" value="612" />
+          <entry key="html" value="344" />
+          <entry key="java" value="14630" />
+          <entry key="xml" value="1407" />
+          <entry key="yml" value="701" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="290" />
-          <entry key="JAVA" value="13014" />
+          <entry key="HTML" value="344" />
+          <entry key="JAVA" value="14630" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="1380" />
-          <entry key="YAML" value="612" />
+          <entry key="XML" value="1407" />
+          <entry key="YAML" value="701" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -93,35 +116,65 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ImageCode.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+            <state relative-caret-position="63">
+              <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#989#990#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#702#703#0" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#843#844#0" expanded="true" />
-                <element signature="e#883#884#0" expanded="true" />
-                <element signature="e#915#916#0" expanded="true" />
-                <element signature="e#959#960#0" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#1095#1096#0" expanded="true" />
+                <element signature="e#2594#2595#0" expanded="true" />
+                <element signature="e#2651#2652#0" expanded="true" />
+                <element signature="e#4803#4804#0" expanded="true" />
+                <element signature="e#4856#4857#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="317" column="31" selection-start-line="317" selection-start-column="31" selection-end-line="317" selection-end-column="31" />
+              <folding>
+                <element signature="e#15260#15261#0" expanded="true" />
+                <element signature="e#15295#15296#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/rememberme/PersistentTokenBasedRememberMeServices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="167" column="58" lean-forward="true" selection-start-line="167" selection-start-column="58" selection-end-line="167" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/rememberme/RememberMeAuthenticationFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-147">
+              <caret line="125" column="49" selection-start-line="125" selection-start-column="49" selection-end-line="125" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/AuthenticationSuccessHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/BrowserSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+            <state relative-caret-position="189">
+              <caret line="97" column="14" lean-forward="true" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,80 +183,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/imooc-security-core/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="210">
+              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-security-browser/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-security-app/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
               <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeFilter.java">
+        <entry file="file://$PROJECT_DIR$/imooc-security-demo/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="82" column="75" selection-start-line="82" selection-start-column="75" selection-end-line="82" selection-end-column="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3196#3197#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/web/context/request/ServletWebRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="95" selection-start-line="95" selection-end-line="95" />
-              <folding>
-                <element signature="e#3279#3280#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/authenticated/ImoocAuthenticationFailureHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-              <folding>
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-security-browser/src/main/resources/resources/imooc-signIn.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="306">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -214,6 +224,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -235,6 +246,8 @@
       <find>authenticate</find>
       <find>retrieveUser</find>
       <find>successfulAuthentication</find>
+      <find>imageCodeGenerator</find>
+      <find>mysql</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -248,11 +261,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/imooc-security-app/pom.xml" />
-        <option value="$PROJECT_DIR$/imooc-security-browser/pom.xml" />
-        <option value="$PROJECT_DIR$/imooc-security/pom.xml" />
-        <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/DemoApplication.java" />
-        <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/exception/ExceptionUtil.java" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/exception/ExceptionHandler.java" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/exception/MyErrorAttribute.java" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/exception/UserIsNotExistException.java" />
@@ -261,7 +269,6 @@
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/controller/async/AsyncController.java" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/model/UserCondition.java" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/wiremock/MockServer.java" />
-        <option value="$PROJECT_DIR$/imooc-security-demo/pom.xml" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/aspect/TimeAspect.java" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/config/MvcConfig.java" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/config/ServletConfig.java" />
@@ -278,23 +285,32 @@
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/resources/resources/imooc-signIn.html" />
         <option value="$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/support/SimpleResponse.java" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/resources/resources/demo-signIn.html" />
-        <option value="$PROJECT_DIR$/imooc-security-core/pom.xml" />
         <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/SecurityCoreConfig.java" />
-        <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/properties/SecurityProperties.java" />
         <option value="$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/BrowserSecurityController.java" />
         <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/properties/LoginType.java" />
-        <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/properties/BrowserProperties.java" />
         <option value="$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/authenticated/ImoocAuthenticationSuccessHandler.java" />
-        <option value="$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/authenticated/ImoocAuthenticationFailureHandler.java" />
         <option value="$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/MyUserDetailsService.java" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/resources/resources/index.html" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/imooc-security-browser/src/main/resources/resources/imooc-signIn.html" />
         <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeException.java" />
-        <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeController.java" />
         <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ImageCode.java" />
+        <option value="$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/authenticated/ImoocAuthenticationFailureHandler.java" />
+        <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/properties/ValidateCodeProperties.java" />
+        <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/properties/SecurityProperties.java" />
+        <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/properties/ImageCodeProperties.java" />
+        <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeGenerator.java" />
+        <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeController.java" />
         <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeFilter.java" />
+        <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ImageCodeGenerator.java" />
+        <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeBeanConfig.java" />
+        <option value="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/code/DemoImageCodeGenerator.java" />
+        <option value="$PROJECT_DIR$/imooc-security-browser/src/main/resources/resources/imooc-signIn.html" />
+        <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/properties/BrowserProperties.java" />
         <option value="$PROJECT_DIR$/imooc-security-demo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/imooc-security-core/pom.xml" />
+        <option value="$PROJECT_DIR$/imooc-security-browser/pom.xml" />
+        <option value="$PROJECT_DIR$/imooc-security-app/pom.xml" />
+        <option value="$PROJECT_DIR$/imooc-security-demo/pom.xml" />
         <option value="$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/BrowserSecurityConfig.java" />
       </list>
     </option>
@@ -329,6 +345,15 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="imooc-security" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="imooc-security-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="imooc-security-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -414,6 +439,14 @@
           <expand>
             <path>
               <item name="spring-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-security-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security" type="b2602c69:ProjectViewProjectNode" />
               <item name="imooc-security-browser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -460,6 +493,16 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="talent" type="462c0819:PsiDirectoryNode" />
               <item name="authenticated" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-security-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="talent" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-security" type="b2602c69:ProjectViewProjectNode" />
@@ -610,10 +653,6 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -630,10 +669,10 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="use&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java&#10;User&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java&#10;securitycontextp&#9;PSI&#9;JAVA://org.springframework.security.web.context.SecurityContextPersistenceFilter&#10;Dao&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.java&#10;ProviderManager&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/ProviderManager.java&#10;authenticationma&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/AuthenticationManager.java&#10;Userde&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java&#10;Userdet&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java&#10;AuthenticationPro&#9;PSI&#9;JAVA://org.springframework.security.authentication.AuthenticationProvider&#10;AuthenticationMa&#9;PSI&#9;JAVA://org.springframework.security.authentication.AuthenticationManager&#10;user&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java&#10;username&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java&#10;passwordE&#9;PSI&#9;JAVA://org.springframework.security.crypto.password.PasswordEncoder&#10;UserDetailService&#9;PSI&#9;JAVA://org.springframework.security.core.userdetails.UserDetailsService&#10;Ex&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/access/ExceptionTranslationFilter.java&#10;FilterSec&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/access/intercept/FilterSecurityInterceptor.java&#10;ExceptionTr&#9;PSI&#9;JAVA://org.springframework.security.web.access.ExceptionTranslationFilter&#10;FilterSecurityI&#9;PSI&#9;JAVA://org.springframework.security.web.access.intercept.FilterSecurityInterceptor&#10;Runnable&#9;PSI&#9;JAVA://java.lang.Runnable&#10;MultipartProperties&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.MultipartProperties&#10;ba&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.6.RELEASE/spring-boot-autoconfigure-1.5.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/BasicErrorController.java&#10;BasicErr&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.BasicErrorController&#10;Pageab&#9;PSI&#9;JAVA://org.springframework.data.domain.Pageable&#10;sec&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.8.RELEASE/spring-boot-autoconfigure-2.0.8.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/security/servlet/SecurityAutoConfiguration.java&#10;SecurityAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration" />
+    <property name="SearchEverywhereHistoryKey" value="Rememberme&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/rememberme/RememberMeAuthenticationFilter.java&#10;PersistentToken&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.rememberme.PersistentTokenBasedRememberMeServices&#10;user&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java&#10;remembermeA&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter&#10;RememberMeServices&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/RememberMeServices.java&#10;RememberMeService&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.RememberMeServices&#10;remembermeServ&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.RememberMeServices&#10;use&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java&#10;User&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java&#10;securitycontextp&#9;PSI&#9;JAVA://org.springframework.security.web.context.SecurityContextPersistenceFilter&#10;Dao&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.java&#10;ProviderManager&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/ProviderManager.java&#10;authenticationma&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/AuthenticationManager.java&#10;Userde&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java&#10;Userdet&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java&#10;AuthenticationPro&#9;PSI&#9;JAVA://org.springframework.security.authentication.AuthenticationProvider&#10;AuthenticationMa&#9;PSI&#9;JAVA://org.springframework.security.authentication.AuthenticationManager&#10;username&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java&#10;passwordE&#9;PSI&#9;JAVA://org.springframework.security.crypto.password.PasswordEncoder&#10;UserDetailService&#9;PSI&#9;JAVA://org.springframework.security.core.userdetails.UserDetailsService&#10;Ex&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/access/ExceptionTranslationFilter.java&#10;FilterSec&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/access/intercept/FilterSecurityInterceptor.java&#10;ExceptionTr&#9;PSI&#9;JAVA://org.springframework.security.web.access.ExceptionTranslationFilter&#10;FilterSecurityI&#9;PSI&#9;JAVA://org.springframework.security.web.access.intercept.FilterSecurityInterceptor&#10;Runnable&#9;PSI&#9;JAVA://java.lang.Runnable&#10;MultipartProperties&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.MultipartProperties&#10;ba&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.6.RELEASE/spring-boot-autoconfigure-1.5.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/BasicErrorController.java&#10;BasicErr&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.BasicErrorController&#10;Pageab&#9;PSI&#9;JAVA://org.springframework.data.domain.Pageable&#10;sec&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.8.RELEASE/spring-boot-autoconfigure-2.0.8.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/security/servlet/SecurityAutoConfiguration.java&#10;SecurityAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550116580559" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550134181826" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -769,7 +808,7 @@
       <workItem from="1548819378032" duration="6406000" />
       <workItem from="1548901111509" duration="4678000" />
       <workItem from="1550025079516" duration="19385000" />
-      <workItem from="1550109694386" duration="6878000" />
+      <workItem from="1550109694386" duration="18030000" />
     </task>
     <servers />
   </component>
@@ -806,14 +845,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81309000" />
+    <option name="totallyTimeSpent" value="92461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992948" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.50070524" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -883,10 +922,16 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeFilter.java</url>
-          <line>40</line>
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.java</url>
+          <line>317</line>
           <properties />
-          <option name="timeStamp" value="11" />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/rememberme/PersistentTokenBasedRememberMeServices.java</url>
+          <line>166</line>
+          <properties />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -897,6 +942,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>securityProperties.getCode().getImage().getUrl()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>request.getRequestURI()</expression-string>
         <language-id>JAVA</language-id>
@@ -920,261 +970,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/AbstractAuthenticationToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-          <folding>
-            <element signature="e#3325#3326#0" expanded="true" />
-            <element signature="e#3354#3355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/AnonymousAuthenticationProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetailsChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/AuthenticationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/AuthenticationProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="196" column="25" lean-forward="true" selection-start-line="196" selection-start-column="25" selection-end-line="196" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-990">
-          <caret line="37" column="63" lean-forward="true" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
-          <folding>
-            <element signature="e#8020#8021#0" expanded="true" />
-            <element signature="e#8052#8053#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/session/SessionAuthenticationStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/context/SecurityContextHolderStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/context/SecurityContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/context/SecurityContextImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/context/ThreadLocalSecurityContextHolderStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
-          <folding>
-            <element signature="e#1877#1878#0" expanded="true" />
-            <element signature="e#1916#1917#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/context/SecurityContextHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-842">
-          <caret line="72" column="16" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="16" />
-          <folding>
-            <element signature="e#3367#3368#0" expanded="true" />
-            <element signature="e#3402#3403#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/Authentication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/resources/resources/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/AuthenticationSuccessHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/ProviderManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="162" selection-start-line="162" selection-end-line="162" />
-          <folding>
-            <element signature="e#10206#10207#0" expanded="true" />
-            <element signature="e#10229#10230#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/SavedRequestAwareAuthenticationSuccessHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/SimpleUrlAuthenticationSuccessHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationTargetUrlRequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-          <folding>
-            <element signature="e#6037#6038#0" expanded="true" />
-            <element signature="e#6076#6077#0" expanded="true" />
-            <element signature="e#6635#6636#0" expanded="true" />
-            <element signature="e#6667#6668#0" expanded="true" />
-            <element signature="e#6921#6922#0" expanded="true" />
-            <element signature="e#6951#6952#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/authenticated/ImoocAuthenticationSuccessHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/annotation/AuthenticationPrincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/aspect/TimeAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
-          <folding>
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-            <element signature="e#1486#1487#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/time/LocalDateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="1551" column="26" selection-start-line="1551" selection-start-column="26" selection-end-line="1551" selection-end-column="26" />
-          <folding>
-            <element signature="e#6863#6864#0" expanded="true" />
-            <element signature="e#6916#6917#0" expanded="true" />
-            <element signature="e#58320#58321#0" expanded="true" />
-            <element signature="e#58386#58387#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/social/spring-social-web/1.1.4.RELEASE/spring-social-web-1.1.4.RELEASE.jar!/org/springframework/social/connect/web/SessionStrategy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/social/spring-social-web/1.1.4.RELEASE/spring-social-web-1.1.4.RELEASE-sources.jar!/org/springframework/social/connect/web/SessionStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/awt/image/BufferedImage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1195,24 +990,6 @@
           <caret line="54" column="44" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-security-browser/src/main/resources/resources/imooc-signIn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
-          <folding>
-            <element signature="e#15260#15261#0" expanded="true" />
-            <element signature="e#15295#15296#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1244,23 +1021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/web/bind/ServletRequestUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="456" column="25" selection-start-line="456" selection-start-column="25" selection-end-line="456" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Objects.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1272,15 +1032,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/AuthenticationFailureHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        <state relative-caret-position="274">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/authenticated/ImoocAuthenticationFailureHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/web/context/request/ServletWebRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
           <folding>
-            <element signature="e#2594#2595#0" expanded="true" />
-            <element signature="e#2651#2652#0" expanded="true" />
-            <element signature="e#4803#4804#0" expanded="true" />
-            <element signature="e#4856#4857#0" expanded="true" />
+            <element signature="e#3279#3280#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1308,69 +1093,406 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/AuthenticationFailureHandler.java">
+    <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/properties/SecurityProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/authenticated/ImoocAuthenticationFailureHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/web/context/request/ServletWebRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="374">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
           <folding>
-            <element signature="e#3279#3280#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.java">
+    <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/properties/ValidateCodeProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="153">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/web/bind/ServletRequestUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="216">
+          <caret line="546" column="25" selection-start-line="546" selection-start-column="25" selection-end-line="546" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/properties/ImageCodeProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.jar!/org/springframework/util/AntPathMatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE-sources.jar!/org/springframework/util/AntPathMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1658">
+          <caret line="189" column="22" selection-start-line="189" selection-start-column="22" selection-end-line="189" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#577#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="82" column="75" selection-start-line="82" selection-start-column="75" selection-end-line="82" selection-end-column="75" />
+        <state relative-caret-position="221">
+          <caret line="126" column="13" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3196#3197#0" expanded="true" />
+            <element signature="e#3952#3953#0" expanded="true" />
+            <element signature="e#3993#3994#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeBeanConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/rememberme/TokenBasedRememberMeServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-browser/src/main/resources/resources/imooc-signIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="72" lean-forward="true" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/talent/code/DemoImageCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ImageCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/rememberme/PersistentTokenRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/rememberme/JdbcTokenRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="39" column="81" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/properties/BrowserProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/MyUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configurers/RememberMeConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="160" column="35" selection-start-line="160" selection-start-column="35" selection-end-line="160" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/io/spring/platform/platform-bom/Brussels-SR4/platform-bom-Brussels-SR4.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/1.5.6.RELEASE/spring-boot-starter-parent-1.5.6.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies/Dalston.SR2/spring-cloud-dependencies-Dalston.SR2.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies-parent/1.3.3.RELEASE/spring-cloud-dependencies-parent-1.3.3.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.imooc-security:imooc-security-core:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.imooc-security:imooc-security-core:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.imooc-security:imooc-security-core:1.0-SNAPSHOT</node>
+            <node x="" y="">org.springframework.boot:spring-boot-configuration-processor:jar:1.5.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-configuration-processor:jar:1.5.6.RELEASE/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.3.RELEASE/org.springframework.cloud:spring-cloud-context:jar:1.2.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.3.RELEASE/org.springframework.cloud:spring-cloud-context:jar:1.2.3.RELEASE/org.springframework.security:spring-security-crypto:jar:4.2.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.3.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:1.2.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.3.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:1.5.6.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.6.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.6.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.6.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.9/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.6.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.9/com.fasterxml.jackson.core:jackson-core:jar:2.8.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-security:jar:1.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-security:jar:1.2.1.RELEASE/org.springframework.boot:spring-boot-starter-security:jar:1.5.6.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-security:jar:1.2.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-security:jar:1.2.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.6.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-security:jar:1.2.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.6.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.16</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-security:jar:1.2.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.6.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.16</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-security:jar:1.2.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.6.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.16</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-security:jar:1.2.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE/org.hibernate:hibernate-validator:jar:5.3.5.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-security:jar:1.2.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE/org.hibernate:hibernate-validator:jar:5.3.5.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-security:jar:1.2.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE/org.hibernate:hibernate-validator:jar:5.3.5.Final/org.jboss.logging:jboss-logging:jar:3.3.1.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-starter-security:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-security:jar:1.2.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE/org.hibernate:hibernate-validator:jar:5.3.5.Final/com.fasterxml:classmate:jar:1.3.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.security.oauth:spring-security-oauth2:jar:2.0.14.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.security.oauth:spring-security-oauth2:jar:2.0.14.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.security.oauth:spring-security-oauth2:jar:2.0.14.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.security.oauth:spring-security-oauth2:jar:2.0.14.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.security.oauth:spring-security-oauth2:jar:2.0.14.RELEASE/org.springframework.security:spring-security-core:jar:4.2.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.security.oauth:spring-security-oauth2:jar:2.0.14.RELEASE/org.springframework.security:spring-security-config:jar:4.2.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.security.oauth:spring-security-oauth2:jar:2.0.14.RELEASE/commons-codec:commons-codec:jar:1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.security.oauth:spring-security-oauth2:jar:2.0.14.RELEASE/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.security.oauth:spring-security-oauth2:jar:2.0.14.RELEASE/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13/org.codehaus.jackson:jackson-core-asl:jar:1.9.13</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.security:spring-security-jwt:jar:1.0.8.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.security:spring-security-jwt:jar:1.0.8.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.56</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.2.1.RELEASE/org.springframework.security:spring-security-jwt:jar:1.0.8.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.56/org.bouncycastle:bcprov-jdk15on:jar:1.56</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot:jar:1.5.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.6.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.6.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11/ch.qos.logback:logback-core:jar:1.1.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.6.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.6.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.6.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.6.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.6.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.6.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.6.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.6.RELEASE/org.springframework:spring-oxm:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.6.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.6.RELEASE/org.springframework:spring-context-support:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.6.RELEASE/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.6.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE/redis.clients:jedis:jar:2.9.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.6.RELEASE/redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.4.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.6.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.5.16</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.6.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.5.16/org.apache.tomcat:tomcat-juli:jar:8.5.16</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.6.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:8.0.13</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:8.0.13/com.google.protobuf:protobuf-java:jar:2.6.1</node>
+            <node x="" y="">org.springframework.social:spring-social-config:jar:1.1.4.RELEASE</node>
+            <node x="" y="">org.springframework.social:spring-social-core:jar:1.1.4.RELEASE</node>
+            <node x="" y="">org.springframework.social:spring-social-core:jar:1.1.4.RELEASE/org.springframework:spring-web:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework.social:spring-social-security:jar:1.1.4.RELEASE</node>
+            <node x="" y="">org.springframework.social:spring-social-security:jar:1.1.4.RELEASE/org.springframework:spring-webmvc:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework.social:spring-social-security:jar:1.1.4.RELEASE/org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework.social:spring-social-security:jar:1.1.4.RELEASE/org.springframework.security:spring-security-web:jar:4.2.3.RELEASE</node>
+            <node x="" y="">org.springframework.social:spring-social-security:jar:1.1.4.RELEASE/org.springframework.security:spring-security-web:jar:4.2.3.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework.social:spring-social-web:jar:1.1.4.RELEASE</node>
+            <node x="" y="">org.springframework.social:spring-social-web:jar:1.1.4.RELEASE/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">commons-beanutils:commons-beanutils:jar:1.9.3</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="4935.411982366291" y="1184.5" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="51">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-browser/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-app/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
           <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/BrowserSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+        <state relative-caret-position="189">
+          <caret line="97" column="14" lean-forward="true" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          <folding>
+            <element signature="e#2594#2595#0" expanded="true" />
+            <element signature="e#2651#2652#0" expanded="true" />
+            <element signature="e#4803#4804#0" expanded="true" />
+            <element signature="e#4856#4857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/RememberMeServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="317" column="31" selection-start-line="317" selection-start-column="31" selection-end-line="317" selection-end-column="31" />
+          <folding>
+            <element signature="e#15260#15261#0" expanded="true" />
+            <element signature="e#15295#15296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/rememberme/PersistentTokenBasedRememberMeServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="167" column="58" lean-forward="true" selection-start-line="167" selection-start-column="58" selection-end-line="167" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/AuthenticationSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/rememberme/RememberMeAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147">
+          <caret line="125" column="49" selection-start-line="125" selection-start-column="49" selection-end-line="125" selection-end-column="49" />
         </state>
       </provider>
     </entry>

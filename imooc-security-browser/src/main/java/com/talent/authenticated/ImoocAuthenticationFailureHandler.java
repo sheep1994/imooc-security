@@ -3,6 +3,7 @@ package com.talent.authenticated;
 import com.alibaba.fastjson.JSON;
 import com.talent.properties.LoginType;
 import com.talent.properties.SecurityProperties;
+import com.talent.support.SimpleResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,7 +41,7 @@ public class ImoocAuthenticationFailureHandler extends SimpleUrlAuthenticationFa
         if (LoginType.JSON.equals(securityProperties.getBrowser().getLoginType())) {
             response.setStatus(HttpStatus.INTERNAL_SERVER_ERROR.value());
             response.setContentType("application/json;charset=UTF-8");
-            response.getWriter().write(JSON.toJSONString(exception));
+            response.getWriter().write(JSON.toJSONString(new SimpleResponse(exception.getMessage())));
         } else {
             super.onAuthenticationFailure(request, response, exception);
         }
