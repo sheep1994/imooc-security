@@ -1,7 +1,8 @@
-package com.talent.validate.code;
+package com.talent.validate.code.image;
 
 import com.talent.properties.SecurityProperties;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.talent.validate.code.ValidateCodeGenerator;
+import com.talent.validate.code.image.ImageCode;
 import org.springframework.web.bind.ServletRequestUtils;
 import org.springframework.web.context.request.ServletWebRequest;
 

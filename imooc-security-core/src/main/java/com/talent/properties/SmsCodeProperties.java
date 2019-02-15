@@ -19,6 +19,11 @@ public class SmsCodeProperties {
      */
     private int expireIn = 60;
 
+    /**
+     * 过滤器可以过滤多个url
+     */
+    private String url;
+
     public int getLength() {
         return length;
     }
@@ -33,5 +38,13 @@ public class SmsCodeProperties {
 
     public void setExpireIn(int expireIn) {
         this.expireIn = expireIn;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
     }
 }

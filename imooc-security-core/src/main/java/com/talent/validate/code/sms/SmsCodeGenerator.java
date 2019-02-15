@@ -1,6 +1,8 @@
-package com.talent.validate.code;
+package com.talent.validate.code.sms;
 
 import com.talent.properties.SecurityProperties;
+import com.talent.validate.code.ValidateCode;
+import com.talent.validate.code.ValidateCodeGenerator;
 import org.apache.commons.lang.RandomStringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

@@ -1,6 +1,7 @@
 package com.talent.validate.code;
 
 import com.talent.properties.SecurityProperties;
+import com.talent.validate.code.image.ImageCodeGenerator;
 import com.talent.validate.code.sms.DefaultSmsCodeSender;
 import com.talent.validate.code.sms.SmsCodeSender;
 import org.springframework.beans.factory.annotation.Autowired;

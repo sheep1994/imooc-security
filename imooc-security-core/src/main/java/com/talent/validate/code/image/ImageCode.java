@@ -1,4 +1,6 @@
-package com.talent.validate.code;
+package com.talent.validate.code.image;
+
+import com.talent.validate.code.ValidateCode;
 
 import java.awt.image.BufferedImage;
 import java.io.Serializable;

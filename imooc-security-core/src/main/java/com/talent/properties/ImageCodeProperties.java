@@ -19,10 +19,6 @@ public class ImageCodeProperties extends SmsCodeProperties {
      */
     private int height = 23;
 
-    /**
-     * 过滤器可以过滤多个url
-     */
-    private String url;
 
     public ImageCodeProperties() {
         setLength(4);
@@ -42,13 +38,5 @@ public class ImageCodeProperties extends SmsCodeProperties {
 
     public void setHeight(int height) {
         this.height = height;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
     }
 }
