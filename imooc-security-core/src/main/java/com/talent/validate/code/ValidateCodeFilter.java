@@ -34,11 +34,13 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
     /**
      * 验证码校验失败处理器
      */
+    @Autowired
     private AuthenticationFailureHandler authenticationFailureHandler;
 
     /**
      * 系统配置信息
      */
+    @Autowired
     private SecurityProperties securityProperties;
 
     /**

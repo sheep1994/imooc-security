@@ -15,7 +15,7 @@ import org.springframework.web.context.request.ServletWebRequest;
  * @Description: TODO
  * @date 2019/2/14下午6:05
  */
-@Component
+@Component("smsValidateCodeGenerator")
 public class SmsCodeGenerator implements ValidateCodeGenerator {
 
     @Autowired
