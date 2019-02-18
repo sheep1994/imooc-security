@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="542b4443-ba65-4ae4-924b-07e9299814df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/77e5cae1657a23b0752a92f7221d2892c1575159" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/77e5cae1657a23b0752a92f7221d2892c1575159" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7bdaf25d9e350b7e3d1b710c81612525ea5b793e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7bdaf25d9e350b7e3d1b710c81612525ea5b793e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/9700420c165dfffb50ed49a682545cabc027fd43" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/9700420c165dfffb50ed49a682545cabc027fd43" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf506d57444fb0729fa791069abb6fd2ff5dcdd4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf506d57444fb0729fa791069abb6fd2ff5dcdd4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c6b04d682e64cd3292de85ae1151155d607a6bd1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c6b04d682e64cd3292de85ae1151155d607a6bd1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f11762ffa7c8c91ebc64e6171da8424590385cd4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-app/target/imooc-security-app-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-app/target/imooc-security-app-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-app/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-app/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-browser/target/imooc-security-browser-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-browser/target/imooc-security-browser-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-browser/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-browser/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeBeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeBeanConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/sms/SmsCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/sms/SmsCodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-core/target/imooc-security-core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-core/target/imooc-security-core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-core/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/BrowserSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/BrowserSecurityConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/imooc-security-browser/target/" />
     <ignored path="$PROJECT_DIR$/imooc-security-app/target/" />
@@ -57,7 +40,7 @@
           <entry key="class" value="27" />
           <entry key="gitignore" value="5" />
           <entry key="html" value="10" />
-          <entry key="java" value="419" />
+          <entry key="java" value="424" />
           <entry key="pom" value="5" />
           <entry key="txt" value="3" />
           <entry key="xml" value="33" />
@@ -69,7 +52,7 @@
           <entry key="CLASS" value="27" />
           <entry key="Git file" value="5" />
           <entry key="HTML" value="10" />
-          <entry key="JAVA" value="419" />
+          <entry key="JAVA" value="424" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="UML" value="1" />
           <entry key="XML" value="38" />
@@ -80,7 +63,7 @@
         <counts>
           <entry key="dummy" value="9" />
           <entry key="html" value="427" />
-          <entry key="java" value="19827" />
+          <entry key="java" value="19842" />
           <entry key="xml" value="1407" />
           <entry key="yml" value="701" />
         </counts>
@@ -88,7 +71,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="427" />
-          <entry key="JAVA" value="19827" />
+          <entry key="JAVA" value="19842" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="XML" value="1407" />
           <entry key="YAML" value="701" />
@@ -112,6 +95,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/BrowserSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/web/context/request/ServletWebRequest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,7 +122,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeProcessorHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state relative-caret-position="313">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/impl/AbstractValidateCodeProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/sms/SmsCodeProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
               <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
@@ -136,17 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/image/ImageCodeProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="26" column="95" selection-start-line="26" selection-start-column="95" selection-end-line="26" selection-end-column="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/impl/AbstractValidateCodeProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+            <state relative-caret-position="320">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -154,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/sms/SmsCodeGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="340">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -163,17 +167,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/image/ImageCodeGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            <state relative-caret-position="265">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeBeanConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+            <state relative-caret-position="170">
+              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -271,12 +275,12 @@
         <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/authentication/mobile/SmsCodeAuthenticationProvider.java" />
         <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/authentication/AbstractChannelSecurityConfig.java" />
         <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/ValidateCodeSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/BrowserSecurityConfig.java" />
         <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeSecurityConfig.java" />
         <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/authentication/mobile/SmsCodeAuthenticationSecurityConfig.java" />
         <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeFilter.java" />
         <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/sms/SmsCodeGenerator.java" />
         <option value="$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeBeanConfig.java" />
+        <option value="$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/BrowserSecurityConfig.java" />
       </list>
     </option>
   </component>
@@ -682,7 +686,7 @@
     <property name="SearchEverywhereHistoryKey" value="User&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java&#10;user&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java&#10;Rememberme&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/rememberme/RememberMeAuthenticationFilter.java&#10;PersistentToken&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.rememberme.PersistentTokenBasedRememberMeServices&#10;remembermeA&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter&#10;RememberMeServices&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/RememberMeServices.java&#10;RememberMeService&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.RememberMeServices&#10;remembermeServ&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.RememberMeServices&#10;use&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java&#10;securitycontextp&#9;PSI&#9;JAVA://org.springframework.security.web.context.SecurityContextPersistenceFilter&#10;Dao&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.java&#10;ProviderManager&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/ProviderManager.java&#10;authenticationma&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/AuthenticationManager.java&#10;Userde&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java&#10;Userdet&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java&#10;AuthenticationPro&#9;PSI&#9;JAVA://org.springframework.security.authentication.AuthenticationProvider&#10;AuthenticationMa&#9;PSI&#9;JAVA://org.springframework.security.authentication.AuthenticationManager&#10;username&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java&#10;passwordE&#9;PSI&#9;JAVA://org.springframework.security.crypto.password.PasswordEncoder&#10;UserDetailService&#9;PSI&#9;JAVA://org.springframework.security.core.userdetails.UserDetailsService&#10;Ex&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/access/ExceptionTranslationFilter.java&#10;FilterSec&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/access/intercept/FilterSecurityInterceptor.java&#10;ExceptionTr&#9;PSI&#9;JAVA://org.springframework.security.web.access.ExceptionTranslationFilter&#10;FilterSecurityI&#9;PSI&#9;JAVA://org.springframework.security.web.access.intercept.FilterSecurityInterceptor&#10;Runnable&#9;PSI&#9;JAVA://java.lang.Runnable&#10;MultipartProperties&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.MultipartProperties&#10;ba&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.6.RELEASE/spring-boot-autoconfigure-1.5.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/BasicErrorController.java&#10;BasicErr&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.BasicErrorController&#10;Pageab&#9;PSI&#9;JAVA://org.springframework.data.domain.Pageable&#10;sec&#9;FILE&#9;jar:///Users/work/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.8.RELEASE/spring-boot-autoconfigure-2.0.8.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/security/servlet/SecurityAutoConfiguration.java&#10;SecurityAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550482778546" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550483483474" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -826,7 +830,7 @@
       <workItem from="1550453266204" duration="1641000" />
       <workItem from="1550464932086" duration="2141000" />
       <workItem from="1550472139687" duration="345000" />
-      <workItem from="1550479492381" duration="2323000" />
+      <workItem from="1550479492381" duration="3037000" />
     </task>
     <servers />
   </component>
@@ -863,7 +867,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111239000" />
+    <option name="totallyTimeSpent" value="111953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="6" />
@@ -880,7 +884,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.33850494" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39915374" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1296,34 +1300,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/BrowserSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="213" selection-start-line="213" selection-end-line="213" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/sms/SmsCodeProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/sms/SmsCodeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1345,9 +1325,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeBeanConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/image/ImageCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/image/ImageCodeProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeProcessorHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="313">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
@@ -1369,31 +1370,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/image/ImageCodeProcessor.java">
+    <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/sms/SmsCodeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="26" column="95" selection-start-line="26" selection-start-column="95" selection-end-line="26" selection-end-column="95" />
+        <state relative-caret-position="340">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/sms/SmsCodeProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/impl/AbstractValidateCodeProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+        <state relative-caret-position="211">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/image/ImageCodeGenerator.java">
+    <entry file="file://$PROJECT_DIR$/imooc-security-browser/src/main/java/com/talent/BrowserSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-security-core/src/main/java/com/talent/validate/code/ValidateCodeBeanConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+        <state relative-caret-position="303">
+          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

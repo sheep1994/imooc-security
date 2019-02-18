@@ -64,9 +64,9 @@ public class BrowserSecurityConfig extends AbstractChannelSecurityConfig {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
 
+        // 在外部实现密码认证登录
         applyPasswordAuthenticationConfig(http);
 
-        // 基于表单登录，在UsernamePasswordAuthenticationFilter过滤器之前添加自定义的过滤器
         http.apply(validateCodeSecurityConfig)
                 .and()
                 .apply(smsCodeAuthenticationSecurityConfig)
