@@ -1,2 +1,6 @@
 
-~squid:S3305)"`Inject this field value directly into "persistentTokenRepository", the only method that uses it.(â–ŠĞ8º‚™Ø-
+squid:S2387*"^"imoocAuthenticationFailureHandler" is the name of a field in "AbstractChannelSecurityConfig".(Š«”øÿÿÿÿ8¹­™ø-
+ssquid:UselessImportCheck"HRemove this unused import 'com.talent.validate.code.ValidateCodeFilter'.(½Äğ‘8ˆ‰ø-
+¥squid:UselessImportCheck"zRemove this unused import 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter'.(š©À8¹­™ø-
+~squid:S33059"`Inject this field value directly into "persistentTokenRepository", the only method that uses it.(â–ŠĞ8º‚™Ø-
+|squid:S2387'"^"imoocAuthenticationSuccessHandler" is the name of a field in "AbstractChannelSecurityConfig".(£œºÑ8¹­™ø-

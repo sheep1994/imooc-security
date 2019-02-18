@@ -18,7 +18,7 @@ import org.springframework.stereotype.Component;
  * @Description: TODO
  * @date 2019/2/13上午10:49
  */
-@Component
+@Component("userDetailsService")
 public class MyUserDetailsService implements UserDetailsService {
 
     private static final Logger looger = LoggerFactory.getLogger(MyUserDetailsService.class);

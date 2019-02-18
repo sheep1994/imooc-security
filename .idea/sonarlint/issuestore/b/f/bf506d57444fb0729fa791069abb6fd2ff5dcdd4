@@ -1,0 +1,5 @@
+
+Nsquid:S2160"+Override the "equals" method in this class.(δνΌƒωÿÿÿÿ8θ±ορ-
+Isquid:S1948"+Make "principal" transient or serializable.(­ΕƒΡ8θ±ορ-
+Fsquid:S1185U"(Remove this method to simply inherit it.(χι­¬8Γ½χρ-
+¥%squid:RedundantThrowsDeclarationCheckK"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(ανδϊ8κρτρ-

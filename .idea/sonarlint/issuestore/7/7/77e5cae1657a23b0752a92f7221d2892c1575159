@@ -1,0 +1,6 @@
+
+Isquid:S1135"2Complete the task associated to this TODO comment.(Üð£Å
+gsquid:UselessImportCheck
+"<Remove this unused import 'org.springframework.util.Assert'.(ü‰¤š8Ùªœò-
+œsquid:UselessImportCheck"lRemove this unused import 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken'.(ÖÆ„Ùüÿÿÿÿ8Ì¹ª÷-
+Â%squid:RedundantThrowsDeclarationCheck0"„Remove the declaration of thrown exception 'org.springframework.security.core.AuthenticationException' which is a runtime exception.(¸Ð»’ùÿÿÿÿ8úæò-
